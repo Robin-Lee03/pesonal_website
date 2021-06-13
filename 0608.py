@@ -1,6 +1,7 @@
 from flask import Flask, render_template
 
 app = Flask(__name__)
+# app = Flask(templates="lovely_templates_for_my_project")
 
 
 @app.route('/')
@@ -15,4 +16,3 @@ def about():
 
 if __name__ == "__main__":
     app.run(debug=True)
-
