@@ -1,7 +1,7 @@
 from flask import Flask, render_template
 
 app = Flask(__name__)
-# app = Flask(templates="lovely_templates_for_my_project")
+#app = Flask( template_folder="robin_folder")
 
 
 @app.route('/')
